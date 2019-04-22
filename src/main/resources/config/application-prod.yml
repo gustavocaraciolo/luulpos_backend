@@ -54,16 +54,16 @@ spring:
     liquibase:
         contexts: prod
     mail:
-        host: ${MAIL_HOST}
-        port: ${MAIL_PORT}
-        username: ${MAIL_USERNAME}
-        password: ${MAIL_PASSWORD}
-        protocol: ${MAIL_PROTOCOL}
+        host: smtp.gmail.com
+        port: 587
+        username: canaldeliveryparty@gmail.com
+        password: caruaru2015
+        protocol: smtp
         tls: true
         properties.mail.smtp:
             auth: true
             starttls.enable: true
-            ssl.trust: ${MAIL_SSL_TRUST}
+            ssl.trust: smtp.gmail.com
     thymeleaf:
         cache: true
 
