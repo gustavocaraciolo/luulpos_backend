@@ -1,7 +1,7 @@
 version: '2'
 services:
     luulpos-app:
-        image: luulsolutions/luulpos
+        image: gustavocaraciolo/luulpos
         environment:
             - _JAVA_OPTIONS=-Xmx512m -Xms256m
             - SPRING_PROFILES_ACTIVE=prod,swagger

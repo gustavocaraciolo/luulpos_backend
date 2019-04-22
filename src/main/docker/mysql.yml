@@ -3,7 +3,7 @@ services:
     luulpos-mysql:
         image: mysql:5.7.20
         volumes:
-            - /Users/ahmeddini/jdl/luulpos/full-backup.sql:/docker-entrypoint-initdb.d/dump.sql
+            - /Users/Gustavo/Documents/Projetos/luulsolutions/luulpos_backend/full-backup.sql:/docker-entrypoint-initdb.d/dump.sql
         environment:
             - MYSQL_USER=root
             - MYSQL_ROOT_PASSWORD=1234
