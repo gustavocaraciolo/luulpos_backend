@@ -39,7 +39,7 @@
     "skipUserManagement": false,
     "jwtSecretKey": "NTYwNTBlMWI0MGVjNmVhN2M4MDY4NTI0YmJiNWQyOWFkNThhMzg4ZjlhNzcwZWI0ODMxMjczNDBiY2UwMDdlY2E1YWE3ZWU0MmQzNzg3M2ZkZjE2ZjdiNjhkYzc4MjkxMTkyZDdlMjViMGY4MGNiZDNkMGI1NGE0YTZhZjJjMDE=",
     "otherModules": [],
-    "herokuAppName": "luulpos",
+    "herokuAppName": "evening-dusk-83244",
     "herokuDeployType": "git"
   },
   "entities": []
