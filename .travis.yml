@@ -35,6 +35,7 @@ install:
 script:
 - chmod +x mvnw
 - "./mvnw package -DskipTests=true -Pprod jib:dockerBuild"
+- ./mvnw com.heroku.sdk:heroku-maven-plugin:2.0.5:deploy -DskipTests -Pprod -Dheroku.buildpacks=heroku/jvm -Dheroku.appName=lojadora
 notifications:
   webhooks:
     on_success: change
